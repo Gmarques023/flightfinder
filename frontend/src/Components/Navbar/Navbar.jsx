@@ -1,5 +1,3 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEarthAmericas, faBars } from '@fortawesome/free-solid-svg-icons';
 import { faHeart, faUser } from '@fortawesome/free-regular-svg-icons';
@@ -21,14 +19,6 @@ function Navbar() {
                     </div>
                     <FontAwesomeIcon icon={faBars} />    
                 </div>
-            </div>
-            <div className='row'>
-                <div className='col-4'>
-                    <Link to="/route1" className='btn btn-primary'>Flights</Link>
-                    <Link to="/route2" className='btn btn-secondary'>Hotels</Link>
-                    <Link to="/route3" className='btn btn-success'>Car Hire</Link>
-                </div>
-                <div className='col-8'></div>
             </div>
         </div>
     )
